@@ -16,7 +16,7 @@ object AdventOfCodeMain: TAdventOfCodeMain
     Size.Height = 665.00000000000000000
     Size.PlatformDefault = False
     TabHeight = 49.00000000000000000
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 0
     TabPosition = Top
     Sizes = (
@@ -32,7 +32,7 @@ object AdventOfCodeMain: TAdventOfCodeMain
       CustomIcon = <
         item
         end>
-      IsSelected = True
+      IsSelected = False
       Padding.Left = 10.00000000000000000
       Padding.Top = 5.00000000000000000
       Padding.Right = 10.00000000000000000
@@ -202,7 +202,7 @@ object AdventOfCodeMain: TAdventOfCodeMain
           Margins.Right = 3.00000000000000000
           Margins.Bottom = 3.00000000000000000
           Position.X = 13.00000000000000000
-          Position.Y = 6.00000000000000000
+          Position.Y = 6.00000095367431700
           Size.Width = 257.00000000000000000
           Size.Height = 26.00000000000000000
           Size.PlatformDefault = False
@@ -239,7 +239,7 @@ object AdventOfCodeMain: TAdventOfCodeMain
           Margins.Right = 3.00000000000000000
           Margins.Bottom = 3.00000000000000000
           Position.X = 13.00000000000000000
-          Position.Y = 6.00000000000000000
+          Position.Y = 6.00000095367431700
           Size.Width = 257.00000000000000000
           Size.Height = 26.00000000000000000
           Size.PlatformDefault = False
@@ -263,7 +263,7 @@ object AdventOfCodeMain: TAdventOfCodeMain
       CustomIcon = <
         item
         end>
-      IsSelected = False
+      IsSelected = True
       Size.Width = 269.00000000000000000
       Size.Height = 49.00000000000000000
       Size.PlatformDefault = False
@@ -274,8 +274,9 @@ object AdventOfCodeMain: TAdventOfCodeMain
       ExplicitSize.cy = 49.00000000000000000
       object ListBox1: TListBox
         Align = Left
+        Position.Y = 60.00000000000000000
         Size.Width = 200.00000000000000000
-        Size.Height = 616.00000000000000000
+        Size.Height = 556.00000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
         DisableFocusEffect = True
@@ -1284,7 +1285,70 @@ object AdventOfCodeMain: TAdventOfCodeMain
         DefaultItemStyles.GroupHeaderStyle = ''
         DefaultItemStyles.GroupFooterStyle = ''
         Viewport.Width = 180.00000000000000000
-        Viewport.Height = 612.00000000000000000
+        Viewport.Height = 552.00000000000000000
+      end
+      object Layout3: TLayout
+        Align = Top
+        Size.Width = 1079.00000000000000000
+        Size.Height = 30.00000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Button3: TButton
+          Align = MostLeft
+          Margins.Left = 3.00000000000000000
+          Margins.Top = 3.00000000000000000
+          Margins.Right = 3.00000000000000000
+          Margins.Bottom = 3.00000000000000000
+          Position.X = 3.00000000000000000
+          Position.Y = 3.00000000000000000
+          Size.Width = 246.00000000000000000
+          Size.Height = 24.00000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Calculate wrapping paper requirements'
+          OnClick = Button3Click
+        end
+        object Label4: TLabel
+          Align = MostLeft
+          Margins.Left = 10.00000000000000000
+          Position.X = 262.00000000000000000
+          Size.Width = 273.00000000000000000
+          Size.Height = 30.00000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+      end
+      object Layout4: TLayout
+        Align = Top
+        Position.Y = 30.00000000000000000
+        Size.Width = 1079.00000000000000000
+        Size.Height = 30.00000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Button4: TButton
+          Align = MostLeft
+          Margins.Left = 3.00000000000000000
+          Margins.Top = 3.00000000000000000
+          Margins.Right = 3.00000000000000000
+          Margins.Bottom = 3.00000000000000000
+          Position.X = 3.00000000000000000
+          Position.Y = 3.00000000000000000
+          Size.Width = 246.00000000000000000
+          Size.Height = 24.00000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Calculate ribbon requirements'
+          OnClick = Button4Click
+        end
+        object Label5: TLabel
+          Align = MostLeft
+          Margins.Left = 10.00000000000000000
+          Position.X = 262.00000000000000000
+          Size.Width = 273.00000000000000000
+          Size.Height = 30.00000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
       end
     end
     object TabItem3: TTabItem
@@ -1315,21 +1379,5 @@ object AdventOfCodeMain: TAdventOfCodeMain
       ExplicitSize.cx = 50.00000000000000000
       ExplicitSize.cy = 49.00000000000000000
     end
-  end
-  object GestureManager1: TGestureManager
-    Sensitivity = 80.00000000000000000
-    Left = 352
-    Top = 56
-    GestureData = <
-      item
-        Control = Owner
-        Collection = <
-          item
-            GestureID = sgiLeft
-          end
-          item
-            GestureID = sgiRight
-          end>
-      end>
   end
 end
