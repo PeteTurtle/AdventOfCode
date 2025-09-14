@@ -12,10 +12,10 @@ object AdventOfCodeMain: TAdventOfCodeMain
   object TabControl1: TTabControl
     Align = Client
     FullSize = True
-    Size.Width = 1079.00000000000000000
-    Size.Height = 665.00000000000000000
+    Size.Width = 1079.000000000000000000
+    Size.Height = 665.000000000000000000
     Size.PlatformDefault = False
-    TabHeight = 49.00000000000000000
+    TabHeight = 49.000000000000000000
     TabIndex = 2
     TabOrder = 0
     TabPosition = Top
@@ -33,18 +33,18 @@ object AdventOfCodeMain: TAdventOfCodeMain
         item
         end>
       IsSelected = False
-      Padding.Left = 10.00000000000000000
-      Padding.Top = 5.00000000000000000
-      Padding.Right = 10.00000000000000000
-      Padding.Bottom = 5.00000000000000000
-      Size.Width = 269.00000000000000000
-      Size.Height = 49.00000000000000000
+      Padding.Left = 10.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Size.Width = 269.000000000000000000
+      Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = 'tabitemtoprated'
       TabOrder = 0
       Text = 'Day 1'
-      ExplicitSize.cx = 50.00000000000000000
-      ExplicitSize.cy = 49.00000000000000000
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
       object Memo1: TMemo
         Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
         DataDetectorTypes = []
@@ -162,23 +162,23 @@ object AdventOfCodeMain: TAdventOfCodeMain
             '()))()((((()((()(()()()(')
         TextSettings.WordWrap = True
         Align = MostTop
-        Margins.Left = 5.00000000000000000
-        Margins.Top = 5.00000000000000000
-        Margins.Right = 5.00000000000000000
-        Margins.Bottom = 5.00000000000000000
-        Position.X = 5.00000000000000000
-        Position.Y = 25.00000000000000000
-        Size.Width = 1069.00000000000000000
-        Size.Height = 424.00000000000000000
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 25.000000000000000000
+        Size.Width = 1069.000000000000000000
+        Size.Height = 424.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
-        Viewport.Width = 1065.00000000000000000
-        Viewport.Height = 420.00000000000000000
+        Viewport.Width = 1065.000000000000000000
+        Viewport.Height = 420.000000000000000000
       end
       object Label1: TLabel
         Align = MostTop
-        Size.Width = 1079.00000000000000000
-        Size.Height = 20.00000000000000000
+        Size.Width = 1079.000000000000000000
+        Size.Height = 20.000000000000000000
         Size.PlatformDefault = False
         TextSettings.HorzAlign = Center
         Text = 'Text to parse'
@@ -186,25 +186,25 @@ object AdventOfCodeMain: TAdventOfCodeMain
       end
       object Layout1: TLayout
         Align = Top
-        Padding.Left = 10.00000000000000000
-        Padding.Top = 3.00000000000000000
-        Padding.Right = 10.00000000000000000
-        Padding.Bottom = 3.00000000000000000
-        Position.Y = 454.00000000000000000
-        Size.Width = 1079.00000000000000000
-        Size.Height = 35.00000000000000000
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 3.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 3.000000000000000000
+        Position.Y = 454.000000000000000000
+        Size.Width = 1079.000000000000000000
+        Size.Height = 35.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 3
         object Button1: TButton
           Align = FitLeft
-          Margins.Left = 3.00000000000000000
-          Margins.Top = 3.00000000000000000
-          Margins.Right = 3.00000000000000000
-          Margins.Bottom = 3.00000000000000000
-          Position.X = 13.00000000000000000
-          Position.Y = 6.00000095367431700
-          Size.Width = 257.00000000000000000
-          Size.Height = 26.00000000000000000
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Position.X = 13.000000000000000000
+          Position.Y = 6.000000953674316000
+          Size.Width = 257.000000000000000000
+          Size.Height = 26.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           Text = 'Calculate Final Floor for Santa'
@@ -212,36 +212,36 @@ object AdventOfCodeMain: TAdventOfCodeMain
         end
         object Label2: TLabel
           Align = FitLeft
-          Margins.Left = 10.00000000000000000
-          Position.X = 283.00000000000000000
-          Position.Y = 3.00000000000000000
-          Size.Width = 301.00000000000000000
-          Size.Height = 32.00000000000000000
+          Margins.Left = 10.000000000000000000
+          Position.X = 283.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 301.000000000000000000
+          Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
         end
       end
       object Layout2: TLayout
         Align = Top
-        Padding.Left = 10.00000000000000000
-        Padding.Top = 3.00000000000000000
-        Padding.Right = 10.00000000000000000
-        Padding.Bottom = 3.00000000000000000
-        Position.Y = 489.00000000000000000
-        Size.Width = 1079.00000000000000000
-        Size.Height = 35.00000000000000000
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 3.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 3.000000000000000000
+        Position.Y = 489.000000000000000000
+        Size.Width = 1079.000000000000000000
+        Size.Height = 35.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 2
         object Button2: TButton
           Align = FitLeft
-          Margins.Left = 3.00000000000000000
-          Margins.Top = 3.00000000000000000
-          Margins.Right = 3.00000000000000000
-          Margins.Bottom = 3.00000000000000000
-          Position.X = 13.00000000000000000
-          Position.Y = 6.00000095367431700
-          Size.Width = 257.00000000000000000
-          Size.Height = 26.00000000000000000
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Position.X = 13.000000000000000000
+          Position.Y = 6.000000953674316000
+          Size.Width = 257.000000000000000000
+          Size.Height = 26.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           Text = 'Calculate when Santa enters the basement'
@@ -249,11 +249,11 @@ object AdventOfCodeMain: TAdventOfCodeMain
         end
         object Label3: TLabel
           Align = FitLeft
-          Margins.Left = 10.00000000000000000
-          Position.X = 283.00000000000000000
-          Position.Y = 3.00000000000000000
-          Size.Width = 301.00000000000000000
-          Size.Height = 32.00000000000000000
+          Margins.Left = 10.000000000000000000
+          Position.X = 283.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 301.000000000000000000
+          Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
         end
@@ -264,19 +264,19 @@ object AdventOfCodeMain: TAdventOfCodeMain
         item
         end>
       IsSelected = False
-      Size.Width = 269.00000000000000000
-      Size.Height = 49.00000000000000000
+      Size.Width = 269.000000000000000000
+      Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = 'tabitemcontacts'
       TabOrder = 0
       Text = 'Day 2'
-      ExplicitSize.cx = 50.00000000000000000
-      ExplicitSize.cy = 49.00000000000000000
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
       object ListBox1: TListBox
         Align = Left
-        Position.Y = 60.00000000000000000
-        Size.Width = 200.00000000000000000
-        Size.Height = 556.00000000000000000
+        Position.Y = 60.000000000000000000
+        Size.Width = 200.000000000000000000
+        Size.Height = 556.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
         DisableFocusEffect = True
@@ -1284,25 +1284,25 @@ object AdventOfCodeMain: TAdventOfCodeMain
         DefaultItemStyles.ItemStyle = ''
         DefaultItemStyles.GroupHeaderStyle = ''
         DefaultItemStyles.GroupFooterStyle = ''
-        Viewport.Width = 180.00000000000000000
-        Viewport.Height = 552.00000000000000000
+        Viewport.Width = 180.000000000000000000
+        Viewport.Height = 552.000000000000000000
       end
       object Layout3: TLayout
         Align = Top
-        Size.Width = 1079.00000000000000000
-        Size.Height = 30.00000000000000000
+        Size.Width = 1079.000000000000000000
+        Size.Height = 30.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 2
         object Button3: TButton
           Align = MostLeft
-          Margins.Left = 3.00000000000000000
-          Margins.Top = 3.00000000000000000
-          Margins.Right = 3.00000000000000000
-          Margins.Bottom = 3.00000000000000000
-          Position.X = 3.00000000000000000
-          Position.Y = 3.00000000000000000
-          Size.Width = 246.00000000000000000
-          Size.Height = 24.00000000000000000
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Position.X = 3.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 246.000000000000000000
+          Size.Height = 24.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           Text = 'Calculate wrapping paper requirements'
@@ -1310,31 +1310,31 @@ object AdventOfCodeMain: TAdventOfCodeMain
         end
         object Label4: TLabel
           Align = MostLeft
-          Margins.Left = 10.00000000000000000
-          Position.X = 262.00000000000000000
-          Size.Width = 273.00000000000000000
-          Size.Height = 30.00000000000000000
+          Margins.Left = 10.000000000000000000
+          Position.X = 262.000000000000000000
+          Size.Width = 273.000000000000000000
+          Size.Height = 30.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
         end
       end
       object Layout4: TLayout
         Align = Top
-        Position.Y = 30.00000000000000000
-        Size.Width = 1079.00000000000000000
-        Size.Height = 30.00000000000000000
+        Position.Y = 30.000000000000000000
+        Size.Width = 1079.000000000000000000
+        Size.Height = 30.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 1
         object Button4: TButton
           Align = MostLeft
-          Margins.Left = 3.00000000000000000
-          Margins.Top = 3.00000000000000000
-          Margins.Right = 3.00000000000000000
-          Margins.Bottom = 3.00000000000000000
-          Position.X = 3.00000000000000000
-          Position.Y = 3.00000000000000000
-          Size.Width = 246.00000000000000000
-          Size.Height = 24.00000000000000000
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Position.X = 3.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 246.000000000000000000
+          Size.Height = 24.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           Text = 'Calculate ribbon requirements'
@@ -1342,10 +1342,10 @@ object AdventOfCodeMain: TAdventOfCodeMain
         end
         object Label5: TLabel
           Align = MostLeft
-          Margins.Left = 10.00000000000000000
-          Position.X = 262.00000000000000000
-          Size.Width = 273.00000000000000000
-          Size.Height = 30.00000000000000000
+          Margins.Left = 10.000000000000000000
+          Position.X = 262.000000000000000000
+          Size.Width = 273.000000000000000000
+          Size.Height = 30.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
         end
@@ -1356,14 +1356,14 @@ object AdventOfCodeMain: TAdventOfCodeMain
         item
         end>
       IsSelected = True
-      Size.Width = 269.00000000000000000
-      Size.Height = 49.00000000000000000
+      Size.Width = 269.000000000000000000
+      Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = 'tabitemrecent'
       TabOrder = 0
       Text = 'Day 3'
-      ExplicitSize.cx = 50.00000000000000000
-      ExplicitSize.cy = 49.00000000000000000
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
       object Day3Memo: TMemo
         Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
         DataDetectorTypes = []
@@ -1499,46 +1499,83 @@ object AdventOfCodeMain: TAdventOfCodeMain
             '>><v^v<<<^>^v^v<<v<>vvv<<>v>v>>^v^v^>><<<<>v^<v<><<>>>^>>^>><<v>')
         TextSettings.WordWrap = True
         Align = Top
-        Size.Width = 1079.00000000000000000
-        Size.Height = 505.00000000000000000
+        Size.Width = 1079.000000000000000000
+        Size.Height = 505.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
-        Viewport.Width = 1059.00000000000000000
-        Viewport.Height = 501.00000000000000000
+        Viewport.Width = 1059.000000000000000000
+        Viewport.Height = 501.000000000000000000
       end
       object Layout5: TLayout
         Align = Top
-        Padding.Left = 10.00000000000000000
-        Padding.Top = 3.00000000000000000
-        Padding.Right = 10.00000000000000000
-        Padding.Bottom = 3.00000000000000000
-        Position.Y = 505.00000000000000000
-        Size.Width = 1079.00000000000000000
-        Size.Height = 35.00000000000000000
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 3.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 3.000000000000000000
+        Position.Y = 505.000000000000000000
+        Size.Width = 1079.000000000000000000
+        Size.Height = 35.000000000000000000
         Size.PlatformDefault = False
-        TabOrder = 3
+        TabOrder = 4
         object Button5: TButton
           Align = FitLeft
-          Margins.Left = 3.00000000000000000
-          Margins.Top = 3.00000000000000000
-          Margins.Right = 3.00000000000000000
-          Margins.Bottom = 3.00000000000000000
-          Position.X = 13.00000000000000000
-          Position.Y = 6.00000095367431700
-          Size.Width = 257.00000000000000000
-          Size.Height = 26.00000000000000000
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Position.X = 13.000000000000000000
+          Position.Y = 6.000000953674316000
+          Size.Width = 257.000000000000000000
+          Size.Height = 26.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
-          Text = 'Get char ordinals'
+          Text = 'Get number of houses Santa visits'
           OnClick = Button5Click
         end
         object Label6: TLabel
           Align = FitLeft
-          Margins.Left = 10.00000000000000000
-          Position.X = 283.00000000000000000
-          Position.Y = 3.00000000000000000
-          Size.Width = 301.00000000000000000
-          Size.Height = 32.00000000000000000
+          Margins.Left = 10.000000000000000000
+          Position.X = 283.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 301.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+      end
+      object Layout6: TLayout
+        Align = Top
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 3.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 3.000000000000000000
+        Position.Y = 540.000000000000000000
+        Size.Width = 1079.000000000000000000
+        Size.Height = 35.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object Button6: TButton
+          Align = FitLeft
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Position.X = 13.000000000000000000
+          Position.Y = 6.000000953674316000
+          Size.Width = 257.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Get number of houses Santa and Robo visit'
+          OnClick = Button6Click
+        end
+        object Label7: TLabel
+          Align = FitLeft
+          Margins.Left = 10.000000000000000000
+          Position.X = 283.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 301.000000000000000000
+          Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
         end
@@ -1549,14 +1586,14 @@ object AdventOfCodeMain: TAdventOfCodeMain
         item
         end>
       IsSelected = False
-      Size.Width = 270.00000000000000000
-      Size.Height = 49.00000000000000000
+      Size.Width = 270.000000000000000000
+      Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = 'tabitemmostrecent'
       TabOrder = 0
       Text = 'TabItem4'
-      ExplicitSize.cx = 50.00000000000000000
-      ExplicitSize.cy = 49.00000000000000000
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
     end
   end
 end
