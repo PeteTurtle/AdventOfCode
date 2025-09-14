@@ -1,4 +1,4 @@
-program TabbedApplication;
+program AdventOfCode;
 
 uses
   System.StartUpCopy,

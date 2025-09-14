@@ -31,11 +31,16 @@ type
     Layout4: TLayout;
     Button4: TButton;
     Label5: TLabel;
+    Day3Memo: TMemo;
+    Layout5: TLayout;
+    Button5: TButton;
+    Label6: TLabel;
     procedure FormCreate(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
   end;
 
 var
@@ -119,6 +124,15 @@ begin
   Label5.Text := Format('Santa needs %d feet of ribbon!', [lTotal]);
   if TPlatformServices.Current.SupportsPlatformService(IFMXClipboardService, IInterface(lClipSvc)) then
     lClipSvc.SetClipboard(lTotal.ToString);
+end;
+
+procedure TAdventOfCodeMain.Button5Click(Sender: TObject);
+begin
+  var lList := TStringList.Create(dupIgnore, False, False);
+  for var lChar in Day3Memo.Text do
+    if lList.IndexOf(lChar) = -1 then
+      lList.Add(lChar);
+  ShowMessage(Format('%s', [lList.Text]));
 end;
 
 procedure TAdventOfCodeMain.FormCreate(Sender: TObject);
