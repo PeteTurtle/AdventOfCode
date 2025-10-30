@@ -1,0 +1,99 @@
+object fmDayFour: TfmDayFour
+  Size.Width = 684.000000000000000000
+  Size.Height = 555.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = MostTop
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 3.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 3.000000000000000000
+    Size.Width = 684.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Label1: TLabel
+      Align = Left
+      Position.X = 10.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 71.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Secret Key'
+      TabOrder = 0
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Left
+      TabOrder = 1
+      Text = 'ckczppom'
+      Position.X = 81.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 151.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Layout2: TLayout
+    Align = MostTop
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 3.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 3.000000000000000000
+    Position.Y = 30.000000000000000000
+    Size.Width = 684.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Button1: TButton
+      Align = Left
+      Position.X = 10.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 351.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Calculate minimum integer key for has starting with 5 zeroes'
+      OnClick = Button1Click
+    end
+    object Label2: TLabel
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Size.Width = 303.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+  object Layout3: TLayout
+    Align = MostTop
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 3.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 3.000000000000000000
+    Position.Y = 60.000000000000000000
+    Size.Width = 684.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button2: TButton
+      Align = Left
+      Position.X = 10.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 351.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Calculate minimum integer key for has starting with 6 zeroes'
+      OnClick = Button2Click
+    end
+    object Label3: TLabel
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Size.Width = 303.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+end

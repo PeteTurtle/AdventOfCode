@@ -3,8 +3,21 @@ unit TabbedTemplate;
 interface
 
 uses
-  FMX.Forms, AoC.Frames.Day3, AoC.Frames.Day2, AoC.Frames.Day1, FMX.Controls,
-  FMX.TabControl, System.Classes, FMX.Types;
+  FMX.Forms,
+  FMX.Memo.Types,
+  FMX.StdCtrls,
+  FMX.Layouts,
+  FMX.Controls.Presentation,
+  FMX.ScrollBox,
+  FMX.Memo,
+  AoC.Frames.Day4,
+  AoC.Frames.Day3,
+  AoC.Frames.Day2,
+  AoC.Frames.Day1,
+  FMX.Controls,
+  FMX.TabControl,
+  System.Classes,
+  FMX.Types, AoC.Frames.Day5;
 
 type
 
@@ -17,7 +30,10 @@ type
     fmDayOne1: TfmDayOne;
     fmDayTwo1: TfmDayTwo;
     fmDayThree1: TfmDayThree;
-    procedure FormCreate(Sender: TObject);
+    fmDayFour1: TfmDayFour;
+    TabItem5: TTabItem;
+    StyleBook1: TStyleBook;
+    fmDayFive1: TfmDayFive;
   end;
 
 var
@@ -26,11 +42,5 @@ var
 implementation
 
 {$R *.fmx}
-
-procedure TAdventOfCodeMain.FormCreate(Sender: TObject);
-begin
-  { This defines the default active tab at runtime }
-  TabControl1.ActiveTab := TabItem1;
-end;
 
 end.
