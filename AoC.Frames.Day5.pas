@@ -32,8 +32,6 @@ type
     procedure FrameResized(Sender: TObject);
   private
     FNiceStringCount: Integer;
-    function CheckString(const aString: string): Boolean;
-    function CheckString2(const aString: string): Boolean;
     function Part1_1(const aString: string): Boolean;
     function Part1_2(const aString: string): Boolean;
     function Part1_3(const aString: string): Boolean;
@@ -77,21 +75,6 @@ end;
 
 procedure TfmDayFive.Button2Click(Sender: TObject);
 begin
-//  FNiceStringCount := 0;
-//  var lSW := TStopwatch.StartNew;
-//  try
-//    Listbox1.BeginUpdate;
-//    for var i := 0 to Memo1.Lines.Count - 1 do
-//      if CheckString2(Memo1.Lines[i]) then
-//      begin
-//        inc(FNiceStringCount);
-//        ListBox1.Items.Add(Memo1.Lines[i]);
-//      end;
-//  finally
-//    lSW.Stop;
-//    Label1.Text := Format('%d nice strings (%dms)', [FNiceStringCount, lSW.ElapsedMilliseconds]);
-//    ListBox1.EndUpdate;
-//  end;
   FNiceStringCount := 0;
   var lSW := TStopwatch.StartNew;
   try
@@ -158,72 +141,6 @@ begin
     if Pos(lPair, aString, i + 2) > 0 then
       Exit(True);
   end;
-end;
-
-function TfmDayFive.CheckString(const aString: string): Boolean;
-var
-  HasBad: Boolean;
-  Has3Vowels: Boolean;
-  HasDouble: Boolean;
-begin
-   HasBad := False;
-   Has3Vowels := False;
-   HasDouble := False;
-
-  // check the bad strings first
-  for var lBad in cBadStrs do
-    if Pos(lBad, aString) > 0 then
-    begin
-      HasBad := True;
-      Break;
-    end;
-
-  var lNoVowels := 0;
-  for var i := 1 to aString.Length do
-    if CharInSet(aString[i], cVowels) then
-    begin
-      inc(lNoVowels);
-      if lNoVowels = 3 then
-      begin
-        Has3Vowels := True;
-        Break;
-      end;
-    end;
-
-  // and now the double-letters
-  for var lCh in lDoubleChars do
-    if Pos(lCh, aString) > 0 then
-    begin
-      HasDouble := True;
-      Break;
-    end;
-  Exit(Has3Vowels and HasDouble and not HasBad);
-end;
-
-function TfmDayFive.CheckString2(const aString: string): Boolean;
-var
-  lFirst, lSecond: Boolean;
-begin
-  lFirst := False;
-  lSecond := False;
-  for var i := 1 to aString.Length - 2 do
-    if aString[i] = aString[i+2] then
-    begin
-      lFirst := True;
-      Break;
-    end;
-  Result := lFirst;
-
-  for var i := 1 to aString.Length - 4 do
-  begin
-    var lpair := aString.Substring(i, 2);
-    if Pos(lPair, aString, i + 2) > 0 then
-    begin
-      lSecond := True;
-      Break;
-    end;
-  end;
-//  Result := lFirst and lSecond;
 end;
 
 procedure TfmDayFive.FrameResized(Sender: TObject);
