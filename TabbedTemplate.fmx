@@ -4,6 +4,7 @@ object AdventOfCodeMain: TAdventOfCodeMain
   Caption = 'Advent of Code'
   ClientHeight = 665
   ClientWidth = 1079
+  Position = ScreenCenter
   FormFactor.Width = 1440
   FormFactor.Height = 900
   FormFactor.Devices = [Desktop]
@@ -193,9 +194,8 @@ object AdventOfCodeMain: TAdventOfCodeMain
           Size.Height = 640.000000000000000000
           inherited Memo1: TMemo
             Size.Height = 615.000000000000000000
-            OnMouseEnter = nil
-            Viewport.Width = 200.000000000000000000
-            Viewport.Height = 615.000000000000000000
+            Viewport.Width = 180.000000000000000000
+            Viewport.Height = 611.000000000000000000
           end
           inherited lblWordcount: TLabel
             Position.Y = 615.000000000000000000

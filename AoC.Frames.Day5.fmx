@@ -9,7 +9,7 @@ object fmDayFive: TfmDayFive
     Size.Width = 200.000000000000000000
     Size.Height = 604.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 1
+    TabOrder = 2
     object Memo1: TMemo
       Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
       DataDetectorTypes = []
@@ -1045,24 +1045,76 @@ object fmDayFive: TfmDayFive
     Size.Width = 634.000000000000000000
     Size.Height = 30.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 0
+    TabOrder = 1
     object Button1: TButton
       Align = Left
       Position.X = 10.000000000000000000
       Position.Y = 3.000000000000000000
-      Size.Width = 215.000000000000000000
+      Size.Width = 247.000000000000000000
       Size.Height = 24.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
-      Text = 'Calculate number of "nice" strings'
+      Text = 'Calculate number of "nice" strings - Part 1'
+      OnClick = Button1Click
     end
     object Label2: TLabel
       Align = Client
       Margins.Left = 10.000000000000000000
-      Size.Width = 389.000000000000000000
+      Size.Width = 357.000000000000000000
       Size.Height = 24.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 1
     end
+  end
+  object Layout3: TLayout
+    Align = Top
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 3.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 3.000000000000000000
+    Position.X = 200.000000000000000000
+    Position.Y = 30.000000000000000000
+    Size.Width = 634.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button2: TButton
+      Align = Left
+      Position.X = 10.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 247.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Calculate number of "nice" strings - Part 2'
+      OnClick = Button2Click
+    end
+    object Label1: TLabel
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Size.Width = 357.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+  object ListBox1: TListBox
+    Align = Left
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Position.X = 205.000000000000000000
+    Position.Y = 65.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 534.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 196.000000000000000000
+    Viewport.Height = 530.000000000000000000
   end
 end

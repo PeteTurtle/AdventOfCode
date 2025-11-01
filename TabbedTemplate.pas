@@ -3,6 +3,7 @@ unit TabbedTemplate;
 interface
 
 uses
+  System.Classes,
   FMX.Forms,
   FMX.Memo.Types,
   FMX.StdCtrls,
@@ -16,8 +17,8 @@ uses
   AoC.Frames.Day1,
   FMX.Controls,
   FMX.TabControl,
-  System.Classes,
-  FMX.Types, AoC.Frames.Day5;
+  FMX.Types,
+  AoC.Frames.Day5;
 
 type
 
